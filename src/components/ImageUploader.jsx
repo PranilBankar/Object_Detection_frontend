@@ -20,7 +20,7 @@ const ImageUploader = () => {
       }
       reader.readAsDataURL(file)
     } else {
-      setError('Please select a valid image file')
+      setError('Please select a valid image file .')
     }
   }
 
